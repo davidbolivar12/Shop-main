@@ -9,14 +9,14 @@ function NavBar(props){
         <nav className="navBar">
             <img id="logo" src={svgLogo} alt="logo"></img>
             <div className="navBarLinks">
-                <a id="btn home" href="./">Home</a>
-                <a id="btn products" href="./">Products</a>
-                <a id="btn contact" href="./">Contact Us</a>
-                <a id="btn policis" href="./">Policies</a>
+                <a className="btn home" href="./">Home</a>
+                <a className="btn products" href="./">Products</a>
+                <a className="btn contact" href="./">Contact Us</a>
+                <a className="btn policis" href="./">Policies</a>
             </div>
             <div className="cartIconContainer">
             <button className="shoppingCart">
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     shopping_cart
                 </span>
             </button>

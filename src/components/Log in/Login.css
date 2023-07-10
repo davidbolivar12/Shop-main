@@ -1,0 +1,87 @@
+.LogInPrincipalContainer{
+    background-color: rgba(30, 168, 195, 0.1);
+    border-radius: 10%;
+    width: 75vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    border: solid 2px #1ea8c3;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313;
+    height: 100vh;
+  }
+
+.imageLogin{
+    width: 150px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.sendLogin{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 50px;
+
+}
+
+.credentialsLogin{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email,
+.password{
+    color: #1EA8C3;
+    transform: translateY(-50%);
+    padding-left: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #1EA8C3;
+}
+
+.material-symbols-outlined {
+  color:#1EA8C3
+}
+
+.email:focus,
+.password:focus {
+    color: #1EA8C3;
+  outline: none; /* Quita el contorno al recibir el foco */
+  box-shadow: none; /* Quita la sombra al recibir el foco */
+  border-bottom: 1px solid #1EA8C3; /* Mantiene solo el borde inferior al recibir el foco */
+}
+
+.btn-login {
+    width: 35vh;
+    background-color: #1EA8C3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-login:hover {
+    background-color: #0D8797;
+  }
+
+  .divBtnLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
